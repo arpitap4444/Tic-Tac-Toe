@@ -4,8 +4,8 @@ class Board {
     drawStage(black)
     val cb = canvasBounds
     val board = Picture.image("board.PNG")
-    val x = Picture.image("x.PNG")
-    val o = Picture.image("o.PNG")
+    val x = Picture.image("X.PNG")
+    val o = Picture.image("O.PNG")
     var change = true
     val data = ArrayBuffer(0, 0, 0, 0, 0, 0, 0, 0, 0)
 
